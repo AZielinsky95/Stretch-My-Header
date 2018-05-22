@@ -12,6 +12,8 @@
 		CA2776E220B4517300219410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2776E020B4517300219410 /* Main.storyboard */; };
 		CA2776E420B4517500219410 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2776E320B4517500219410 /* Assets.xcassets */; };
 		CA2776E720B4517500219410 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA2776E520B4517500219410 /* LaunchScreen.storyboard */; };
+		CA2776EF20B458A700219410 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2776EE20B458A700219410 /* NewsCell.swift */; };
+		CA2776F120B4657200219410 /* bg-header.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CA2776F020B4657200219410 /* bg-header.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CA2776E320B4517500219410 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA2776E620B4517500219410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA2776E820B4517500219410 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2776EE20B458A700219410 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		CA2776F020B4657200219410 /* bg-header.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "bg-header.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +62,10 @@
 				CA2776DE20B4517300219410 /* ViewController.swift */,
 				CA2776E020B4517300219410 /* Main.storyboard */,
 				CA2776E320B4517500219410 /* Assets.xcassets */,
+				CA2776F020B4657200219410 /* bg-header.jpg */,
 				CA2776E520B4517500219410 /* LaunchScreen.storyboard */,
 				CA2776E820B4517500219410 /* Info.plist */,
+				CA2776EE20B458A700219410 /* NewsCell.swift */,
 			);
 			path = "Stretch My Header";
 			sourceTree = "<group>";
@@ -125,6 +131,7 @@
 				CA2776E720B4517500219410 /* LaunchScreen.storyboard in Resources */,
 				CA2776E420B4517500219410 /* Assets.xcassets in Resources */,
 				CA2776E220B4517300219410 /* Main.storyboard in Resources */,
+				CA2776F120B4657200219410 /* bg-header.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA2776DF20B4517300219410 /* ViewController.swift in Sources */,
+				CA2776EF20B458A700219410 /* NewsCell.swift in Sources */,
 				CA2776DD20B4517300219410 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
